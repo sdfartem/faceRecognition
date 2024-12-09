@@ -16,7 +16,7 @@ image_folder = 'input_images'
 output_folder = 'output_images'
 style_images = 'style_images'
 
-# Проверяем, существует ли папка для сохранения изображений, если нет - создаем её
+# Проверяем существует ли папка для сохранения изображений, если нет - создаем её
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
